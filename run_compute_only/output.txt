@@ -1,0 +1,191 @@
+Benchmarking image size: 128x128
+Results for 128x128:
+  Average CPU time: 0.0005 seconds
+  Average GPU time: 0.0006 seconds
+  GPU Speedup: 0.90x
+
+Benchmarking image size: 256x256
+Results for 256x256:
+  Average CPU time: 0.0057 seconds
+  Average GPU time: 0.0003 seconds
+  GPU Speedup: 22.09x
+
+Benchmarking image size: 384x384
+Results for 384x384:
+  Average CPU time: 0.0177 seconds
+  Average GPU time: 0.0004 seconds
+  GPU Speedup: 48.07x
+
+Benchmarking image size: 512x512
+Results for 512x512:
+  Average CPU time: 0.0459 seconds
+  Average GPU time: 0.0007 seconds
+  GPU Speedup: 69.03x
+
+Benchmarking image size: 640x640
+Results for 640x640:
+  Average CPU time: 0.0763 seconds
+  Average GPU time: 0.0011 seconds
+  GPU Speedup: 68.92x
+
+Benchmarking image size: 768x768
+Results for 768x768:
+  Average CPU time: 0.1183 seconds
+  Average GPU time: 0.0014 seconds
+  GPU Speedup: 86.32x
+
+Benchmarking image size: 896x896
+Results for 896x896:
+  Average CPU time: 0.1621 seconds
+  Average GPU time: 0.0018 seconds
+  GPU Speedup: 89.06x
+
+Benchmarking image size: 1024x1024
+Results for 1024x1024:
+  Average CPU time: 0.2221 seconds
+  Average GPU time: 0.0022 seconds
+  GPU Speedup: 102.11x
+
+Benchmarking image size: 1152x1152
+Results for 1152x1152:
+  Average CPU time: 0.2796 seconds
+  Average GPU time: 0.0029 seconds
+  GPU Speedup: 97.74x
+
+Benchmarking image size: 1280x1280
+Results for 1280x1280:
+  Average CPU time: 0.3507 seconds
+  Average GPU time: 0.0033 seconds
+  GPU Speedup: 107.37x
+
+Benchmarking image size: 1408x1408
+Results for 1408x1408:
+  Average CPU time: 0.4315 seconds
+  Average GPU time: 0.0038 seconds
+  GPU Speedup: 112.11x
+
+Benchmarking image size: 1536x1536
+Results for 1536x1536:
+  Average CPU time: 0.5187 seconds
+  Average GPU time: 0.0045 seconds
+  GPU Speedup: 115.32x
+
+Benchmarking image size: 1664x1664
+Results for 1664x1664:
+  Average CPU time: 0.6111 seconds
+  Average GPU time: 0.0052 seconds
+  GPU Speedup: 116.44x
+
+Benchmarking image size: 1792x1792
+Results for 1792x1792:
+  Average CPU time: 0.7195 seconds
+  Average GPU time: 0.0061 seconds
+  GPU Speedup: 117.43x
+
+Benchmarking image size: 1920x1920
+Results for 1920x1920:
+  Average CPU time: 0.8364 seconds
+  Average GPU time: 0.0070 seconds
+  GPU Speedup: 119.36x
+
+Benchmarking image size: 2048x2048
+Results for 2048x2048:
+  Average CPU time: 0.9586 seconds
+  Average GPU time: 0.0080 seconds
+  GPU Speedup: 120.20x
+
+Benchmarking image size: 2176x2176
+Results for 2176x2176:
+  Average CPU time: 1.0781 seconds
+  Average GPU time: 0.0091 seconds
+  GPU Speedup: 118.08x
+
+Benchmarking image size: 2304x2304
+Results for 2304x2304:
+  Average CPU time: 1.2229 seconds
+  Average GPU time: 0.0102 seconds
+  GPU Speedup: 120.36x
+
+Benchmarking image size: 2432x2432
+Results for 2432x2432:
+  Average CPU time: 1.3804 seconds
+  Average GPU time: 0.0113 seconds
+  GPU Speedup: 122.56x
+
+Benchmarking image size: 2560x2560
+Results for 2560x2560:
+  Average CPU time: 1.5330 seconds
+  Average GPU time: 0.0124 seconds
+  GPU Speedup: 123.82x
+
+Benchmarking image size: 2688x2688
+Results for 2688x2688:
+  Average CPU time: 1.6938 seconds
+  Average GPU time: 0.0137 seconds
+  GPU Speedup: 124.01x
+
+Benchmarking image size: 2816x2816
+Results for 2816x2816:
+  Average CPU time: 1.8604 seconds
+  Average GPU time: 0.0149 seconds
+  GPU Speedup: 125.04x
+
+Benchmarking image size: 2944x2944
+Results for 2944x2944:
+  Average CPU time: 2.0386 seconds
+  Average GPU time: 0.0163 seconds
+  GPU Speedup: 125.16x
+
+Benchmarking image size: 3072x3072
+Results for 3072x3072:
+  Average CPU time: 2.2250 seconds
+  Average GPU time: 0.0176 seconds
+  GPU Speedup: 126.13x
+
+Benchmarking image size: 3200x3200
+Results for 3200x3200:
+  Average CPU time: 2.4210 seconds
+  Average GPU time: 0.0191 seconds
+  GPU Speedup: 126.74x
+
+Benchmarking image size: 3328x3328
+Results for 3328x3328:
+  Average CPU time: 2.6244 seconds
+  Average GPU time: 0.0206 seconds
+  GPU Speedup: 127.55x
+
+Benchmarking image size: 3456x3456
+Results for 3456x3456:
+  Average CPU time: 2.8277 seconds
+  Average GPU time: 0.0222 seconds
+  GPU Speedup: 127.44x
+
+Benchmarking image size: 3584x3584
+Results for 3584x3584:
+  Average CPU time: 3.0573 seconds
+  Average GPU time: 0.0238 seconds
+  GPU Speedup: 128.35x
+
+Benchmarking image size: 3712x3712
+Results for 3712x3712:
+  Average CPU time: 3.2774 seconds
+  Average GPU time: 0.0255 seconds
+  GPU Speedup: 128.33x
+
+Benchmarking image size: 3840x3840
+Results for 3840x3840:
+  Average CPU time: 3.5198 seconds
+  Average GPU time: 0.0274 seconds
+  GPU Speedup: 128.58x
+
+Benchmarking image size: 3968x3968
+Results for 3968x3968:
+  Average CPU time: 3.7482 seconds
+  Average GPU time: 0.0291 seconds
+  GPU Speedup: 128.86x
+
+Benchmarking image size: 4096x4096
+Results for 4096x4096:
+  Average CPU time: 4.0180 seconds
+  Average GPU time: 0.0309 seconds
+  GPU Speedup: 130.18x
