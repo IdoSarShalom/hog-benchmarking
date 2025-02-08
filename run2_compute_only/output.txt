@@ -1,0 +1,326 @@
+
+$  cd /home/robo01/Documents/ido_hog ; /usr/bin/env /bin/python3 /home/robo01/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 60733 -- /home/robo01/Documents/ido_hog/hogClaude1.py
+
+General configuration for OpenCV 4.10.0-dev =====================================
+  Version control:               4.10.0-414-ga5f8711ce1
+
+  Extra modules:
+    Location (extra):            /home/robo01/opencv_build/opencv_contrib/modules
+    Version control (extra):     4.10.0-36-g5409e01d
+
+  Platform:
+    Timestamp:                   2024-11-28T12:31:55Z
+    Host:                        Linux 6.8.0-49-generic x86_64
+    CMake:                       3.22.1
+    CMake generator:             Unix Makefiles
+    CMake build tool:            /usr/bin/gmake
+    Configuration:               Release
+    Algorithm Hint:              ALGO_HINT_ACCURATE
+
+  CPU/HW features:
+    Baseline:                    SSE SSE2 SSE3
+      requested:                 SSE3
+    Dispatched code generation:  SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+      SSE4_1 (18 files):         + SSSE3 SSE4_1
+      SSE4_2 (2 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+      AVX (9 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+      FP16 (1 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 AVX FP16
+      AVX2 (38 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 AVX FP16 AVX2 FMA3
+      AVX512_SKX (8 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 AVX FP16 AVX2 FMA3 AVX_512F AVX512_COMMON AVX512_SKX
+
+  C/C++:
+    Built as dynamic libs?:      YES
+    C++ standard:                11
+    C++ Compiler:                /usr/bin/c++  (ver 11.4.0)
+    C++ flags (Release):         -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+    C++ flags (Debug):           -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+    C Compiler:                  /usr/bin/cc
+    C flags (Release):           -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+    C flags (Debug):             -fsigned-char -ffast-math -fno-finite-math-only -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+    Linker flags (Release):      -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  
+    Linker flags (Debug):        -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  
+    ccache:                      NO
+    Precompiled headers:         NO
+    Extra dependencies:          m pthread cudart_static dl rt nppc nppial nppicc nppidei nppif nppig nppim nppist nppisu nppitc npps cublas cufft -L/usr/local/cuda/lib64 -L/usr/lib/x86_64-linux-gnu
+    3rdparty dependencies:
+
+  OpenCV modules:
+    To be built:                 aruco bgsegm bioinspired calib3d ccalib core cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev datasets dnn dnn_objdetect dnn_superres dpm face features2d flann freetype fuzzy gapi hfs highgui img_hash imgcodecs imgproc intensity_transform line_descriptor mcc ml objdetect optflow phase_unwrapping photo plot python3 quality rapid reg rgbd saliency shape signal stereo stitching structured_light superres surface_matching text tracking ts video videoio videostab wechat_qrcode xfeatures2d ximgproc xobjdetect xphoto
+    Disabled:                    world
+    Disabled by dependency:      -
+    Unavailable:                 alphamat cannops cvv hdf java julia matlab ovis python2 sfm viz
+    Applications:                tests perf_tests apps
+    Documentation:               NO
+    Non-free algorithms:         NO
+
+  GUI:                           GTK3
+    GTK+:                        YES (ver 3.24.33)
+    VTK support:                 NO
+
+  Media I/O: 
+    ZLib:                        /usr/lib/x86_64-linux-gnu/libz.so (ver 1.2.11)
+    JPEG:                        /usr/lib/x86_64-linux-gnu/libjpeg.so (ver 80)
+    WEBP:                        build (ver encoder: 0x020f)
+    AVIF:                        NO
+    PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.6.37)
+    TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.3.0)
+    JPEG 2000:                   build (ver 2.5.0)
+    OpenEXR:                     /usr/lib/x86_64-linux-gnu/libImath-2_5.so /usr/lib/x86_64-linux-gnu/libIlmImf-2_5.so /usr/lib/x86_64-linux-gnu/libIex-2_5.so /usr/lib/x86_64-linux-gnu/libHalf-2_5.so /usr/lib/x86_64-linux-gnu/libIlmThread-2_5.so (ver 2_5)
+    HDR:                         YES
+    SUNRASTER:                   YES
+    PXM:                         YES
+    PFM:                         YES
+
+  Video I/O:
+    FFMPEG:                      YES
+      avcodec:                   YES (58.134.100)
+      avformat:                  YES (58.76.100)
+      avutil:                    YES (56.70.100)
+      swscale:                   YES (5.9.100)
+      avresample:                NO
+    GStreamer:                   YES (1.20.3)
+    v4l/v4l2:                    YES (linux/videodev2.h)
+
+  Parallel framework:            pthreads
+
+  Trace:                         YES (with Intel ITT)
+
+  Other third-party libraries:
+    Intel IPP:                   2021.12.0 [2021.12.0]
+           at:                   /home/robo01/opencv_build/opencv/build/3rdparty/ippicv/ippicv_lnx/icv
+    Intel IPP IW:                sources (2021.12.0)
+              at:                /home/robo01/opencv_build/opencv/build/3rdparty/ippicv/ippicv_lnx/iw
+    VA:                          NO
+    Lapack:                      NO
+    Eigen:                       NO
+    Custom HAL:                  NO
+    Protobuf:                    build (3.19.1)
+    Flatbuffers:                 builtin/3rdparty (23.5.9)
+
+  NVIDIA CUDA:                   YES (ver 12.6, CUFFT CUBLAS FAST_MATH)
+    NVIDIA GPU arch:             86
+    NVIDIA PTX archs:
+
+  cuDNN:                         NO
+
+  OpenCL:                        YES (no extra features)
+    Include path:                /home/robo01/opencv_build/opencv/3rdparty/include/opencl/1.2
+    Link libraries:              Dynamic load
+
+  Python 3:
+    Interpreter:                 /home/robo01/Documents/stitching/.venv/bin/python (ver 3.10.12)
+    Libraries:                   /usr/lib/x86_64-linux-gnu/libpython3.10.so (ver 3.10.12)
+    Limited API:                 NO
+    numpy:                       /home/robo01/Documents/stitching/.venv/lib/python3.10/site-packages/numpy/_core/include (ver 2.0.2)
+    install path:                lib/python3.10/site-packages/cv2/python-3.10
+
+  Python (for build):            /home/robo01/Documents/stitching/.venv/bin/python
+
+  Java:                          
+    ant:                         NO
+    Java:                        NO
+    JNI:                         NO
+    Java wrappers:               NO
+    Java tests:                  NO
+
+  Install to:                    /home/robo01/Documents/stitching/.venv
+-----------------------------------------------------------------
+
+
+/home/robo01/Documents/stitching/.venv/bin/python
+
+Benchmarking image size: 128x128
+Results for 128x128:
+  Average CPU time: 0.0005 seconds
+  Average GPU time: 0.0610 seconds
+  GPU Speedup: 0.01x
+
+Benchmarking image size: 256x256
+Results for 256x256:
+  Average CPU time: 0.0057 seconds
+  Average GPU time: 0.0017 seconds
+  GPU Speedup: 3.38x
+
+Benchmarking image size: 384x384
+Results for 384x384:
+  Average CPU time: 0.0179 seconds
+  Average GPU time: 0.0030 seconds
+  GPU Speedup: 5.96x
+
+Benchmarking image size: 512x512
+Results for 512x512:
+  Average CPU time: 0.0461 seconds
+  Average GPU time: 0.0135 seconds
+  GPU Speedup: 3.43x
+
+Benchmarking image size: 640x640
+Results for 640x640:
+  Average CPU time: 0.0764 seconds
+  Average GPU time: 0.0218 seconds
+  GPU Speedup: 3.50x
+
+Benchmarking image size: 768x768
+Results for 768x768:
+  Average CPU time: 0.1160 seconds
+  Average GPU time: 0.0327 seconds
+  GPU Speedup: 3.55x
+
+Benchmarking image size: 896x896
+Results for 896x896:
+  Average CPU time: 0.1628 seconds
+  Average GPU time: 0.0446 seconds
+  GPU Speedup: 3.65x
+
+Benchmarking image size: 1024x1024
+Results for 1024x1024:
+  Average CPU time: 0.2175 seconds
+  Average GPU time: 0.0592 seconds
+  GPU Speedup: 3.67x
+
+Benchmarking image size: 1152x1152
+Results for 1152x1152:
+  Average CPU time: 0.2804 seconds
+  Average GPU time: 0.0764 seconds
+  GPU Speedup: 3.67x
+
+Benchmarking image size: 1280x1280
+Results for 1280x1280:
+  Average CPU time: 0.3511 seconds
+  Average GPU time: 0.0950 seconds
+  GPU Speedup: 3.70x
+
+Benchmarking image size: 1408x1408
+Results for 1408x1408:
+  Average CPU time: 0.4290 seconds
+  Average GPU time: 0.1163 seconds
+  GPU Speedup: 3.69x
+
+Benchmarking image size: 1536x1536
+Results for 1536x1536:
+  Average CPU time: 0.5190 seconds
+  Average GPU time: 0.1381 seconds
+  GPU Speedup: 3.76x
+
+Benchmarking image size: 1664x1664
+Results for 1664x1664:
+  Average CPU time: 0.6108 seconds
+  Average GPU time: 0.1671 seconds
+  GPU Speedup: 3.66x
+
+Benchmarking image size: 1792x1792
+Results for 1792x1792:
+  Average CPU time: 0.7148 seconds
+  Average GPU time: 0.1914 seconds
+  GPU Speedup: 3.74x
+
+Benchmarking image size: 1920x1920
+Results for 1920x1920:
+  Average CPU time: 0.8320 seconds
+  Average GPU time: 0.2206 seconds
+  GPU Speedup: 3.77x
+
+Benchmarking image size: 2048x2048
+Results for 2048x2048:
+  Average CPU time: 0.9551 seconds
+  Average GPU time: 0.2580 seconds
+  GPU Speedup: 3.70x
+
+Benchmarking image size: 2176x2176
+Results for 2176x2176:
+  Average CPU time: 1.0734 seconds
+  Average GPU time: 0.2850 seconds
+  GPU Speedup: 3.77x
+
+Benchmarking image size: 2304x2304
+Results for 2304x2304:
+  Average CPU time: 1.2265 seconds
+  Average GPU time: 0.3212 seconds
+  GPU Speedup: 3.82x
+
+Benchmarking image size: 2432x2432
+Results for 2432x2432:
+  Average CPU time: 1.3804 seconds
+  Average GPU time: 0.3613 seconds
+  GPU Speedup: 3.82x
+
+Benchmarking image size: 2560x2560
+Results for 2560x2560:
+  Average CPU time: 1.5332 seconds
+  Average GPU time: 0.4073 seconds
+  GPU Speedup: 3.76x
+
+Benchmarking image size: 2688x2688
+Results for 2688x2688:
+  Average CPU time: 1.6917 seconds
+  Average GPU time: 0.4457 seconds
+  GPU Speedup: 3.80x
+
+Benchmarking image size: 2816x2816
+Results for 2816x2816:
+  Average CPU time: 1.8687 seconds
+  Average GPU time: 0.4948 seconds
+  GPU Speedup: 3.78x
+
+Benchmarking image size: 2944x2944
+Results for 2944x2944:
+  Average CPU time: 2.0414 seconds
+  Average GPU time: 0.5416 seconds
+  GPU Speedup: 3.77x
+
+Benchmarking image size: 3072x3072
+Results for 3072x3072:
+  Average CPU time: 2.2259 seconds
+  Average GPU time: 0.5880 seconds
+  GPU Speedup: 3.79x
+
+Benchmarking image size: 3200x3200
+Results for 3200x3200:
+  Average CPU time: 2.4192 seconds
+  Average GPU time: 0.6430 seconds
+  GPU Speedup: 3.76x
+
+Benchmarking image size: 3328x3328
+Results for 3328x3328:
+  Average CPU time: 2.6262 seconds
+  Average GPU time: 0.6912 seconds
+  GPU Speedup: 3.80x
+
+Benchmarking image size: 3456x3456
+Results for 3456x3456:
+  Average CPU time: 2.8496 seconds
+  Average GPU time: 0.7432 seconds
+  GPU Speedup: 3.83x
+
+Benchmarking image size: 3584x3584
+Results for 3584x3584:
+  Average CPU time: 3.0742 seconds
+  Average GPU time: 0.8109 seconds
+  GPU Speedup: 3.79x
+
+Benchmarking image size: 3712x3712
+Results for 3712x3712:
+  Average CPU time: 3.2922 seconds
+  Average GPU time: 0.8605 seconds
+  GPU Speedup: 3.83x
+
+Benchmarking image size: 3840x3840
+Results for 3840x3840:
+  Average CPU time: 3.5218 seconds
+  Average GPU time: 0.9307 seconds
+  GPU Speedup: 3.78x
+
+Benchmarking image size: 3968x3968
+Results for 3968x3968:
+  Average CPU time: 3.7594 seconds
+  Average GPU time: 0.9861 seconds
+  GPU Speedup: 3.81x
+
+Benchmarking image size: 4096x4096
+Results for 4096x4096:
+  Average CPU time: 4.0387 seconds
+  Average GPU time: 1.0558 seconds
+  GPU Speedup: 3.83x
+/home/robo01/Documents/stitching/.venv/lib/python3.10/site-packages/numpy/core/getlimits.py:518: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/robo01/Documents/stitching/.venv/lib/python3.10/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
