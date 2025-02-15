@@ -2,7 +2,7 @@
 
 This project benchmarks the performance of the Histogram of Oriented Gradients (HOG) feature descriptor using both CPU and GPU implementations. The primary goal is to measure execution times across various image sizes and demonstrate the speedup provided by GPU acceleration.
 
-<img src="run_compute_only/figure.png" alt="Model Overview" width="800" />
+<img src="run2_compute_only/figure.png" alt="Model Overview" width="800" />
 
 ## Setup
 
